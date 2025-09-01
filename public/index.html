@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Carros</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header class="header">
+    <h1 class="logo">Loja de Carros</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Carros</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="banner">
+      <img src="img.jpg1.jpg" alt="Carro em destaque">
+    </section>
+
+    <section class="carros">
+      <article class="carro">
+        <img src="renault-kwid-2023.png" alt="Carro popular">
+        <h2>Carro Popular</h2>
+        <p>Ótimo para o dia a dia, econômico e acessível.</p>
+      </article>
+
+      <article class="carro">
+        <img src="Porsche 911 GTS UK 001_otx6j7.jpg" alt="Carro esportivo">
+        <h2>Carro Esportivo</h2>
+        <p>Alta performance, design moderno e potência.</p>
+      </article>
+
+      <article class="carro">
+        <img src="toyota-sw4-srx-exterior.webp" alt="SUV de luxo">
+        <h2>SUV de Luxo</h2>
+        <p>Conforto e sofisticação para toda a família.</p>
+      </article>
+
+      <article class="carro">
+        <img src="OIP.webp" alt="Carro elétrico">
+        <h2>Carro Elétrico</h2>
+        <p>Sustentabilidade e tecnologia de ponta.</p>
+      </article>
+    </section>
+
+    <section class="formulario">
+      <h2>Login</h2>
+      <form>
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Loja de Carros - Todos os direitos reservados</p>
+  </footer>
 </body>
 </html>
